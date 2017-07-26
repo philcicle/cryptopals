@@ -26,10 +26,11 @@ def hexXor(str1, str2):
         aXOR_out = equal_hexXor(str1, str2)
     return aXOR_out
 
-input_str = "1c0111001f010100061a024b53535009181c"
-second_str = "686974207468652062756c6c277320657965"
 
-print(hexXor(input_str, second_str)) # '746865206b696420646f6e277420706c6179'
+# input_str = "1c0111001f010100061a024b53535009181c"
+# second_str = "686974207468652062756c6c277320657965"
+
+# print(hexXor(input_str, second_str)) # '746865206b696420646f6e277420706c6179'
 
 
 
