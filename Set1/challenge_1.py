@@ -1,4 +1,3 @@
-import binascii
 import base64
 
 def convert_hex_to_base64(hex_in):
