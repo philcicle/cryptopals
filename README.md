@@ -1,3 +1,10 @@
-# cryptopals
+# Cryptopals
 
-Trying to get threw the crptopals with the least embarressing code. 
+Trying to get through the cryptopals with the least embarrassing code. 
+
+Set 1
+
+- Challenge 1 **done**
+- Challenge 2 **done**
+- Challenge 3 **workin' on it**
+
