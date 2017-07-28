@@ -6,5 +6,6 @@ Set 1
 
 - Challenge 1 **done**
 - Challenge 2 **done**
-- Challenge 3 **workin' on it**
+- Challenge 3 **done**
+- Challenge 4 **workin' on it**
 
