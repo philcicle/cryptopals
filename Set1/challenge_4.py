@@ -11,11 +11,13 @@ def single_byte_decode_file(fileIN):
             i += 1
             byte_decode = (i,) + single_byte_decode(line)
             first_pass.extend(byte_decode)
-        decoded_string_pos = top_score = 0
+        decoded_string_pos = 0
+        top_score = 10000
         best_guess = decoded_string_out = ''
-        for line_number, decode_letter,  decode_string in zip(first_pass[0::3], first_pass[1::3], first_pass[2::3]):
-            score = string_scoring(decode_string)
-            if score > top_score:
+        for line_number, decode_letter,  decode_string, decode_score in zip(first_pass[0::4], first_pass[1::4],
+                                                                            first_pass[2::4], first_pass[3::4]):
+            score = decode_score
+            if score <= top_score:
                 top_score = score
                 best_guess = decode_letter
                 decoded_string_pos = line_number
